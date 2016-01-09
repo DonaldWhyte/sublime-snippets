@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+EXPECT_CALL(${1:mock}, ${2:method}(${3:expectedArgs}))
+    .Times(Exactly(1))
+    .WillOnce(${5:action});
+]]></content>
+    <tabTrigger>expect1</tabTrigger>
+</snippet>
+

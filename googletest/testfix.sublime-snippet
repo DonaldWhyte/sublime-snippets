@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+class ${1:fixtureName} : public ::testing::Test {
+
+  public:
+    ${1}()
+    {
+        // TODO
+    }
+
+    ~${1}()
+    {
+        // TODO
+    }
+
+    void SetUp()
+    {
+        // TODO
+    }
+
+    void TearDown()
+    {
+        // TODO
+    }
+
+  protected:
+    // TODO: objects and values common across all tests
+
+};
+]]></content>
+    <tabTrigger>testfix</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+TEST_F(${1:fixtureName}, ${2:testName}) {
+
+}
+]]></content>
+    <tabTrigger>testf</tabTrigger>
+</snippet>

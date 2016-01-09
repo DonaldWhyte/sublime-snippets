@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+ON_CALL(${1:mock}, ${2:method}(${3:expectedArgs}))
+    .WillByDefault(${4:action});
+]]></content>
+    <tabTrigger>oncall</tabTrigger>
+</snippet>
